@@ -1,0 +1,40 @@
+let jarak = Number(prompt("Masukkan jarak perjalanan km: "))
+let efisiensi = Number(prompt("Masukkan efisiensi kendaraan km/liter: "))
+let hargaBBM = Number(prompt("Masukkan harga BBM per liter: "))
+
+console.log("\nJenis perjalanan:")
+console.log("1. Sekali Jalan")
+console.log("2. Pulang-Pergi")
+
+let pilihan = Number(prompt("\nPilih jenis perjalanan (1/2): "))
+
+let totalJarak
+
+while (true) {
+
+if (pilihan == 1) {
+  totalJarak = jarak
+  break
+
+} else if (pilihan == 2) {
+  totalJarak = jarak * 2
+  break
+
+} else {
+ alert("Pilihan salah! Masukkan angka 1 atau 2.")
+
+pilihan = Number(prompt(
+  "\nJenis Perjalanan!\n" +
+  "1. Sekali Jalan\n" +
+  "2. Pulang-Pergi\n" +
+  "\nPilih jenis perjalanan (1/2): "))
+    }
+}
+
+let konsumsiBBM = totalJarak / efisiensi
+let biayaBBM = konsumsiBBM * hargaBBM
+
+console.log("\n=== HASIL PERHITUNGAN ===")
+console.log("Total jarak     : " + totalJarak + " km")
+console.log("Konsumsi BBM    : " + konsumsiBBM.toFixed(2) + " liter")
+console.log("Biaya BBM       : Rp" + biayaBBM.toLocaleString("id-ID"))
