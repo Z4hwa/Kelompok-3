@@ -6,24 +6,37 @@ Function Main
     Declare Real totalJarak
     Declare Real konsumsiBBM
     Declare Real biayaBBM
+    Declare Integer lanjut
 
-    Output "masukkan jarak perjalanan (km):"
-    Input jarak
-    Output "masukkan efesiensi kendaraan (km/liter):"
-    Input efesiensi
-    Output "masukkan hargaBBM per liter"
-    Input hargaBBM
-    Output "Pilih Jenis perjalanan:    1.Sekali jalan  2.Pulang pergi"
-    Input pilihan
-    If pilihan = 1
-        Assign totalJarak = Jarak
-    Else
-        If pilihan = 2
-            Assign totalJarak = Jarak*2
+    Assign lanjut = 1
+    While lanjut = 1
+        Output "masukkan jarak perjalanan (km):"
+        Input jarak
+        Output "masukkan efesiensi kendaraan (km/liter):"
+        Input efesiensi
+        Output "masukkan hargaBBM per liter"
+        Input hargaBBM
+        Output "Pilih Jenis perjalanan:    1.Sekali jalan  2.Pulang pergi"
+        Input pilihan
+        If pilihan = 1
+            Assign totalJarak = Jarak
         Else
-            Output "Tidak terdaftar"
+            If pilihan = 2
+                Assign totalJarak = Jarak*2
+            Else
+                Output "Tidak terdaftar"
+            End
         End
+        Assign konsumsiBBM = totalJarak/efesiensi
+        Assign biayaBBM = konsumsiBBM*hargaBBM
+        Output "========== HASIL PERHITUNGAN =========="
+        Output "Total Jarak    : " & totalJarak & " km"
+        Output "Konsumsi BBM   : " & konsumsiBBM & " liter"
+        Output "Biaya BBM      : Rp" & biayaBBM
+        Output "========================================"
+        Output "Apakah ingin menghitung perjalanan lain?"
+        Output "1. Ya"
+        Output "2. Tidak"
+        Input lanjut
     End
-    Assign konsumsiBBM = totalJarak/efesiensi
-    Assign biayaBBM = konsumsiBBM*hargaBBM
 End
