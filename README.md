@@ -50,12 +50,12 @@ This project is designed to apply the following programming concepts:
 - Display Total Fuel Cost
 ---
 ## 8. Algorithm The algorithm used in the program is described in: 
-link pseudocode = [pseudocode.txt](https://github.com/Z4hwa/Kelompok-3/blob/cf31ff293da12dce92ea0087e65e59502301e1fc/Pseudocode-Travel%20Cost%20Calculator)
+link pseudocode = [pseudocode.txt](./Pseudocode-Travel%20Cost%20Calculator)
 ---
 ## 9. Flowchart The flowchart is created using Flowgorithm. File: 
-link flowchart = [flowchart.fprg](https://github.com/Z4hwa/Kelompok-3/blob/a7a397e4d4ed84fc6625d0e2b6cb16b888d995f7/Flowchart-Travel%20Cost%20Calculator.fprg)
+link flowchart = [flowchart.fprg](./Flowchart-Travel%20Cost%20Calculator.fprg)
 ---
 ## 10. JavaScript Implementation The JavaScript implementation of the program is available in: 
-link javascript = [program.js](https://github.com/Z4hwa/Kelompok-3/blob/a7a397e4d4ed84fc6625d0e2b6cb16b888d995f7/Javascript-Travel%20Cost%20Calculator)
+link javascript = [program.js](./Javascript-Travel%20Cost%20Calculator)
 ---
 ## 11. Testing The program is tested using several test scenarios. Testing documentation: `test-cases.md` 
