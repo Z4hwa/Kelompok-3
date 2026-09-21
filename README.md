@@ -42,22 +42,21 @@ This project is designed to apply the following programming concepts:
 - Calculate Fuel Consumption → Fuel Consumption = Total Distance ÷ Fuel Efficiency
 - Calculate Fuel Cost → Fuel Cost = Fuel Consumption x Fuel Price per Liter
 - Display Results → Display Total Distance → Display Fuel Consumption → Display Total Fuel Cost
-
 ---- 
 ## 7. Output The program displays: 
 - Display Total Distance
 - Display Fuel Consumption
 - Display Total Fuel Cost
 ---
-## 8. Algorithm The algorithm used in the program is described in: ed
+## 8. Algorithm The algorithm used in the program is described in:
 [pseudocode.txt](Pseudocode-Travel%20Cost%20Calculator)
 ---
-## 9. Flowchart The flowchart is created using Flowgorithm. File: 
+## 9. Flowchart The flowchart is created using Flowgorithm. File:
 [flowchart.fprg](Flowchart-Travel%20Cost%20Calculator)
 ---
-## 10. JavaScript Implementation The JavaScript implementation of the program is available in: 
+## 10. JavaScript Implementation The JavaScript implementation of the program is available in:
 [program.js](Javascript-Travel%20Cost%20Calculator)
 ---
-## 11. Testing The program is tested using several test scenarios. Testing documentation: `test-cases.md` 
+## 11. Testing The program is tested using several test scenarios. Testing documentation:
 [test-cases.md](Testing)
 ---
