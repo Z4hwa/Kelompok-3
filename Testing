@@ -1,0 +1,83 @@
+# Testing
+
+## Test Case 1 
+
+**Input:**
+Jarak = 70 km
+Efisiensi = 10 km/liter
+Harga BBM = 10.000/liter
+Jenis perjalanan = 1 (Sekali Jalan)
+
+**Expected Output:**
+Total jarak = 70 km
+Konsumsi BBM = 7.00 liter
+Biaya BBM = Rp70.000
+
+**Actual Output:**
+Total jarak = 70 km
+Konsumsi BBM = 7.00 liter
+Biaya BBM = Rp70.000
+
+Status: PASS
+
+⸻
+
+## Test Case 2
+
+**Input:**
+Jarak = 30 km
+Efisiensi = 15 km/liter
+Harga BBM = 10.000/liter
+Jenis perjalanan = 2 (Pulang-Pergi)
+
+**Expected Output:**
+Total jarak = 60 km
+Konsumsi BBM = 4.00 liter
+Biaya BBM = Rp40.000
+
+**Actual Output:**
+Total jarak = 60 km
+Konsumsi BBM = 4.00 liter
+Biaya BBM = Rp40.000
+
+**Status:** PASS
+
+⸻
+
+## Test Case 3
+
+**Input:**
+Jarak = 50 km
+Efisiensi = 12 km/liter
+Harga BBM = 13.000/liter
+Jenis perjalanan = 1 (Sekali Jalan)
+
+**Expected Output:**
+Total jarak = 50 km
+Konsumsi BBM = 4.17 liter
+Biaya BBM = Rp54.167
+
+**Actual Output:**
+Total jarak = 50 km
+Konsumsi BBM = 4.17 liter
+Biaya BBM = Rp54.167
+
+**Status:** PASS
+
+⸻
+
+## Test Case 4 — Pilihan Tidak Valid
+
+**Input:**
+Jarak = 40 km
+Efisiensi = 10 km/liter
+Harga BBM = 10.000/liter
+Jenis perjalanan = 3
+
+**Expected Output:**
+“Pilihan salah! Masukkan angka 1 atau 2.”
+
+**Actual Output:**
+“Pilihan salah! Masukkan angka 1 atau 2.”
+
+**Status:** PASS
