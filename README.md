@@ -49,10 +49,13 @@ This project is designed to apply the following programming concepts:
 - Display Fuel Consumption
 - Display Total Fuel Cost
 ---
-## 8. Algorithm The algorithm used in the program is described in: `pseudocode.txt` 
+## 8. Algorithm The algorithm used in the program is described in: 
+link pseudocode = [pseudocode.txt](./Pseudocode-Travel%20Cost%20Calculator.txt)
 ---
-## 9. Flowchart The flowchart is created using Flowgorithm. File: `flowchart.fprg`
+## 9. Flowchart The flowchart is created using Flowgorithm. File: 
+link flowchart = [flowchart.fprg](./Flowchart-Travel%20Cost%20Calculator.fprg)
 ---
-## 10. JavaScript Implementation The JavaScript implementation of the program is available in: `program.js` 
+## 10. JavaScript Implementation The JavaScript implementation of the program is available in: 
+link javascript = [program.js](./Javascript-Travel%20Cost%20Calculator.js)
 ---
 ## 11. Testing The program is tested using several test scenarios. Testing documentation: `test-cases.md` 
