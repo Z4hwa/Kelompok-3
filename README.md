@@ -52,7 +52,7 @@ This project is designed to apply the following programming concepts:
 [pseudocode.txt](Pseudocode-Travel%20Cost%20Calculator)
 ---
 ## 9. Flowchart The flowchart is created using Flowgorithm. File:
-[flowchart.fprg](Flowchart-Travel%20Cost%20Calculator)
+[flowchart.fprg](Flowchart-Travel%20Cost%20Calculator.fprg)
 ---
 ## 10. JavaScript Implementation The JavaScript implementation of the program is available in:
 [program.js](Javascript-Travel%20Cost%20Calculator)
